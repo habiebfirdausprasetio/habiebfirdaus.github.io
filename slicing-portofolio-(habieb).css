@@ -65,6 +65,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
+    height: 450px;
     background-color: #f5f8fc;
   }
   .hero-text {
