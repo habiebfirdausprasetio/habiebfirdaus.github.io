@@ -8,6 +8,8 @@ body {
   header {
     background-color: #fff;
     padding: 20px 0;
+    position: sticky;
+    top: 0px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .container {
@@ -122,15 +124,20 @@ body {
     margin: 0 auto;
     padding: 50px 0;
 }
+.ke {
+  font-size: 40px;
+  margin: 0;
+  color: black;
+}
 .headersatu {
     text-align: left;
 }
-.headersatu h1 {
+.headersatu {
     font-size: 36px;
     color: #1a202c;
     margin: 10px 0;
 }
-.headersatu p {
+.headersatu {
     font-size: 14px;
     color: #4a5568;
 }
@@ -148,9 +155,6 @@ body {
     text-align: left;
     transition: transform 0.3s;
     margin: 15px;
-}
-.skillst-card:hover {
-    transform: translateY(-10px);
 }
 .skillst-card i {
     font-size: 24px;
