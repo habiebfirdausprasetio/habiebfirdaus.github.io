@@ -156,6 +156,16 @@ nav ul li a {
   color: black;
 }
 
+.my {
+  color: #333;
+  font-weight: bold;
+}
+
+.rnw {
+  color: #333;
+  font-weight: bold;
+}
+
 .headersatu {
   text-align: left;
 }
