@@ -190,6 +190,75 @@ body {
     text-decoration: none;
     border: solid #6847ef 1.9px;
   }
+  .nbw {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.nbw span {
+    color: #ff6347;
+}
+.containersd {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  justify-items: center;
+  margin-right: 20px;
+}
+.containersd h2 {
+  color: #03a9f4;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-items: center;
+
+
+}
+.feature-itemsd {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  justify-items: center;
+
+}
+.feature-itemsd i {
+  color: #00c853;
+  margin-right: 10px;
+  text-align: center;
+  justify-items: center;
+
+
+}
+.feature-itemsd p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  justify-items: center;
+
+}
+
+.nbo {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+.buttonax {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.buttonax i {
+    margin-left: 10px;
+}
   
   .container-hero1 {
     display: flex;
@@ -299,6 +368,14 @@ body {
     margin-left: 50px;
     margin-top: 30px;
     width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .hero2-image img {
+    margin-left: 150px;
+    /* margin-top: 30px; */
+    width: 75%;
     height: auto;
     border-radius: 10px;
   }
