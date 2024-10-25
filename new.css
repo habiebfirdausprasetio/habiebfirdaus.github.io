@@ -32,6 +32,84 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .sectionaz {
+    padding: 50px 20px;
+    text-align: center;
+}
+.sectionaz h2 {
+    font-size: 2.5em;
+    color: black;
+}
+.sectionaz h2 span {
+    color: #ff4d4d;
+}
+.sectionaz p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.vision-missionaz {
+    background-color: #66b2ff;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vision-missionaz div {
+    max-width: 400px;
+}
+.vision-missionaz h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.vision-missionaz i {
+    font-size: 2em;
+}
+.why-us {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.why-us h2 {
+    font-size: 2.5em;
+    color: black;
+}
+.why-us h2 span {
+    color: #ff4d4d;
+}
+.why-us p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.featuresaz {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+.featureaz {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+.featureaz i {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.featureaz p {
+    font-size: 1em;
+    color: #333;
+}
   
   .logo img {
     height: 40px;
@@ -207,6 +285,107 @@ body {
   justify-items: center;
   margin-right: 20px;
 }
+
+.contact-infoad {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+.contact-infoad div {
+  text-align: center;
+}
+.contact-infoad h3 {
+  margin-bottom: 10px;
+}
+.contact-infoad p {
+  margin: 5px 0;
+}
+.map-formad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+.map-formad .form-containerad {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+.map-formad .form-containerad h2 {
+  margin-bottom: 20px;
+}
+.map-formad .form-containead input,
+.map-formad .form-containerad textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.map-formad .form-containerad button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.map-formad .mapad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+}
+.footerad {
+  background-color: #00aaff;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+.footerad .cta-buttonsad {
+  margin: 20px 0;
+}
+.footerad .cta-buttonsad a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+.footerad .cta-buttonsad .consultad {
+  background-color: #ff4d4d;
+}
+.footerad .cta-buttons .demoad {
+  background-color: #00aaff;
+}
+.footerad .linksad {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.footerad .linksad div {
+  text-align: left;
+}
+.footerad .linksad h4 {
+  margin-bottom: 10px;
+}
+.footerad .linksad p,
+.footerad .linksad a {
+  margin: 5px 0;
+  color: white;
+  text-decoration: none;
+}
+.footerad .copyrightad {
+  margin-top: 20px;
+}
 .containersd h2 {
   color: #03a9f4;
   font-size: 18px;
@@ -240,6 +419,8 @@ body {
   justify-items: center;
 
 }
+
+
 
 .nbo {
     font-size: 1.2em;
@@ -282,6 +463,7 @@ body {
     font-size: 48px;
     margin: 0;
   }
+  
 
   .containerbr {
     text-align: center;
@@ -426,6 +608,7 @@ body {
     color: #333;
     font-weight: bold;
   }
+  
 
   .features {
     background-color: white;
