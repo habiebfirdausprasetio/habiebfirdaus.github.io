@@ -461,6 +461,7 @@ body {
     justify-content: space-between;
     padding: 100px 0;
     height: 500px;
+    margin: 50px;
   }
   
   .hero-text1 {
@@ -501,7 +502,6 @@ body {
 .problembr {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 200px;
     padding: 10px;
     text-align: center;
