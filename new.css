@@ -453,7 +453,6 @@ body {
   .container-hero1 {
     display: flex;
   }
-  
   .hero1 {
     margin-top: 1px;
     display: flex;
@@ -463,6 +462,42 @@ body {
     height: 500px;
     margin: 50px;
   }
+
+  .containervt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cardvt {
+    background: linear-gradient(to bottom, #40A4F4, #40A4F4);
+    border-radius: 15px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.cardvt img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: -60px;
+    border: 5px solid #fff;
+}
+.cardvt h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.cardvt p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+.starsvt {
+    color: #ffd700;
+    margin: 10px 0;
+}
   
   .hero-text1 {
     max-width: 50%;
