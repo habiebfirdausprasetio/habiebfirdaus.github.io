@@ -335,6 +335,10 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.map {
+  width: 500px;
+  height: 400px;
+}
 .map-formad .mapad {
   position: absolute;
   top: 0;
