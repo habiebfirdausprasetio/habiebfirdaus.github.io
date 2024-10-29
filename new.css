@@ -167,7 +167,7 @@ body {
     margin-left: 25px;
   }
   .imgicn19 {
-    width: 50px;
+    width: 100px;
   }
   
   .hero-text h1 {
@@ -641,7 +641,7 @@ body {
     flex-wrap: wrap;
 }
 .features .icon {
-    background-color: #e9f5ff;
+    background-color: #ffffff;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
