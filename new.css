@@ -2,12 +2,13 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background: linear-gradient(to bottom, #2c9bf3, #ffffff);
+
     color: #333;
   }
   
   header {
-    background-color: #2C9BF3;
+    /* background-color: #2C9BF3; */
     padding: 20px 0;
     /* position: sticky;
     top: 0px; */
@@ -354,7 +355,7 @@ body {
   opacity: 0.5;
 }
 .footerad {
-  background-color: #00aaff;
+  /* background-color: #00aaff; */
   color: white;
   padding: 50px 0;
   text-align: center;
@@ -404,6 +405,21 @@ body {
 
 
 }
+
+.tk {
+  color: black;
+ }
+
+.nwu {
+  background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 800px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
 .feature-itemsd {
   display: flex;
   align-items: center;
@@ -446,6 +462,18 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+
+.buttonaxz {
+  background-color: #ffffff;
+  color: #2C9BF3;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
 .buttonax i {
     margin-left: 10px;
 }
@@ -467,21 +495,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 50px;
 }
 .cardvt {
     background: linear-gradient(to bottom, #40A4F4, #40A4F4);
     border-radius: 15px;
-    width: 150px;
+    width: 180px;
     margin: 20px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
+
+.khy {
+  text-align: center;
+  margin-top: 200px;
+}
 .cardvt img {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     margin-top: -60px;
     border: 5px solid #fff;
@@ -535,7 +568,6 @@ body {
     margin-bottom: 30px;
 }
 .problembr {
-    background: #fff;
     border-radius: 10px;
     width: 200px;
     padding: 10px;
@@ -600,7 +632,7 @@ body {
 
   .hero2-image img {
     margin-left: 150px;
-    /* margin-top: 30px; */
+    margin-top: 70px; 
     width: 75%;
     height: auto;
     border-radius: 10px;
@@ -612,7 +644,7 @@ body {
   }
   
   .hero1 a {
-    background-color: #5e3bee;
+    /* background-color: #5e3bee; */
     padding-top: 15px;
     padding-bottom: 15px;
   }
