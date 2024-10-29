@@ -7,10 +7,10 @@ body {
   }
   
   header {
-    background-color: #fff;
+    background-color: #2C9BF3;
     padding: 20px 0;
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -141,11 +141,11 @@ body {
   
   .contact-btn {
     background-color: transparent;
-    color: #6847ef;
+    color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    border: solid #6847ef 1.9px;
+    border: solid #2C9BF3 1.9px;
   }
   
   .container-hero {
@@ -159,7 +159,7 @@ body {
     justify-content: space-between;
     padding: 50px 0;
     height: 500px;
-    background: linear-gradient(to bottom, #007bff, #00c6ff);
+    background: linear-gradient(to bottom, #2c9bf3, #ffffff);
   }
   
   .hero-text {
@@ -170,15 +170,17 @@ body {
   .hero-text h1 {
     font-size: 48px;
     margin: 0;
+    color: white;
   }
   
   .hero-text h1 span {
-    color: #6c63ff;
+    color: #ff7f50;
   }
   
   .hero-text p {
     font-size: 18px;
     margin: 20px 0;
+    color: white;
   }
   
   .hero-text a {
@@ -203,7 +205,7 @@ body {
   }
   
   .hero a {
-    background-color: #5e3bee;
+    background-color: #ff4d4d;
     padding-top: 15px;
     padding-bottom: 15px;
   }
