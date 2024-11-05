@@ -204,12 +204,13 @@ body {
     justify-items: center;
   
   }
-  
-  
-  
+  .swi {
+    color: blue;
+    font-size: x-large;
+  }
   .nbo {
-      font-size: 1.2em;
       margin-bottom: 40px;
+      padding: 50px;
   }
 
   .container-hero1 {
@@ -409,7 +410,7 @@ body {
 }
 .cardx {
     background-color: #fff;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
@@ -636,8 +637,11 @@ display: inline-block;
   text-align: center;
   margin-top: 200px;
 }
+.nwb {
+  padding: 50px;
+}
 .cardvt img {
-    border-radius: 50%;
+    border-radius: 50%; 
     width: 70px;
     height: 70px;
     object-fit: cover;
