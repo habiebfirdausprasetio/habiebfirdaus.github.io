@@ -8,10 +8,8 @@ body {
   }
   
   header {
-     background-color: #ffffff; 
+    background-color: #ffffff; 
     padding: 20px 0;
-    /* position: sticky;
-    top: 0px; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
@@ -170,7 +168,7 @@ body {
     height: 50px;
    }
   
-  .nwu {
+   .nwu {
     background: white;
       border-radius: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -179,22 +177,19 @@ body {
       height: 800px;
       margin-right: 10px;
       margin-top: 100px;
-  }
-  .feature-itemsd {
+   }
+   .feature-itemsd {
     display: flex;
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
     justify-items: center;
-  
-  }
+   }
   .feature-itemsd i {
     color: #00c853;
     margin-right: 10px;
     text-align: center;
     justify-items: center;
-  
-  
   }
   .feature-itemsd p {
     margin: 0;
@@ -204,24 +199,43 @@ body {
     justify-items: center;
   
   }
+
+  .ut {
+    text-decoration: none;
+  }
+
+  .fne {
+    width: 150px;
+  }
+
+  .fnee {
+    width: 120px;
+  }
+
+  .fna {
+    width: 100px;
+  }
   .swi {
     color: blue;
     font-size: x-large;
   }
   .nbo {
       margin-bottom: 40px;
-      padding: 50px;
   }
 
   .container-hero1 {
     display: flex;
+  }
+
+  .but {
+    padding: 100px 0;
   }
   .hero1 {
     margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 150px 0;
     height: 500px;
     margin: 50px;
   }
@@ -234,8 +248,8 @@ body {
   .hero-text1 h1 {
     font-size: 48px;
     margin: 0;
+    color: white;
   }
-  
 
   .containerbr {
     text-align: center;
@@ -307,10 +321,10 @@ body {
     margin-left: 10px;
 }
   
-  .hero-text1 p {
+.hero-text1 p {
     font-size: 18px;
     margin: 20px 0;
-  }
+}
   
   .hero-text1 a {
     background-color: #6c63ff;
@@ -342,7 +356,6 @@ body {
   }
   
   .hero1 a {
-    /* background-color: #5e3bee; */
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -382,12 +395,55 @@ body {
     color: #333;
     font-weight: bold;
   }
-
-  
-
   .bus {
     padding: 50px;
   }
+
+  .containeraq {
+    text-align: center;
+    margin: 20px;
+}
+.containeraq h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.containeraq p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+.card-containeraq {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.cardaq {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+.cardaq img {
+    width: 100%;
+    border-radius: 15px;
+}
+.cardaq h2 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+.cardaq p {
+    font-size: 14px;
+    color: #666;
+}
+.cardaq a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
   .containerx {
     text-align: center;
@@ -410,7 +466,6 @@ body {
 }
 .cardx {
     background-color: #fff;
-    /* border-radius: 50px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
@@ -440,8 +495,6 @@ body {
     font-weight: bold;
 }
  
-  
-
   .features {
     background-color: white;
     padding: 50px 20px;
@@ -670,7 +723,7 @@ display: inline-block;
     font-size: 48px;
     margin: 0;
   }
-  
+  x
   
   .headersatu {
     text-align: left;
@@ -681,12 +734,10 @@ display: inline-block;
     color: #1a202c;
     margin: 10px 0;
   }
-  
   .headersatu {
     font-size: 14px;
     color: #4a5568;
   }
-  
   .containersd {
     background: white;
     border-radius: 20px;
@@ -705,9 +756,6 @@ display: inline-block;
     text-align: center;
     justify-items: center;
   }
-  
-  
-  
   .contact-infoad {
     display: flex;
     justify-content: space-around;
@@ -772,7 +820,6 @@ display: inline-block;
     z-index: 0;
     opacity: 0.5;
   }
-
   .demoada {
     background-color: #00aaff;
   }
@@ -796,7 +843,6 @@ display: inline-block;
   .footerada .cta-buttons .demoada {
     background-color: #00aaff;
   }
-
   .demoad {
     background-color: black;
   }
@@ -842,4 +888,3 @@ display: inline-block;
   .footerad .copyrightad {
     margin-top: 20px;
   }
-  
