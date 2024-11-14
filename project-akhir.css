@@ -83,10 +83,7 @@ body {
     max-width: 50%;
     margin-left: 25px;
   }
-  .imgicn19 {
-    width: 100px;
-  }
-  
+ 
   .hero-text h1 {
     font-size: 48px;
     margin: 0;
@@ -94,7 +91,7 @@ body {
   }
   
   .hero-text h1 span {
-    color: #ff7f50;
+    color: #ff0000;
   }
   
   .hero-text p {
@@ -118,6 +115,10 @@ body {
     height: auto;
     border-radius: 10px;
   }
+
+  .ctaa {
+    padding: 50px 200px;
+  }
   
   .saya {
     margin-top: 50px;
@@ -125,7 +126,7 @@ body {
   }
   
   .hero a {
-    background-color: #ff4d4d;
+    background-color: #ff0000;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -166,6 +167,18 @@ body {
    .lji {
     width: 50px;
     height: 50px;
+   }
+
+   .sh {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .al {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
    }
   
    .nwu {
@@ -220,7 +233,10 @@ body {
     font-size: x-large;
   }
   .nbo {
-      margin-bottom: 40px;
+      margin-top: -10px;
+      text-align: center;
+      color: white;
+      
   }
 
   .container-hero1 {
@@ -256,8 +272,8 @@ body {
     padding: 20px;
 }
 .headerbr {
-    font-size: 24px;
-    color: #333;
+    font-size: 50px;
+    color: #fff;
     margin-bottom: 10px;
 }
 .headerbr span {
@@ -265,7 +281,7 @@ body {
 }
 .subheaderbr {
     font-size: 16px;
-    color: #666;
+    color: #fff;
     margin-bottom: 30px;
 }
 .problemsbr {
@@ -324,6 +340,7 @@ body {
 .hero-text1 p {
     font-size: 18px;
     margin: 20px 0;
+    color: #fff;
 }
   
   .hero-text1 a {
@@ -382,7 +399,7 @@ body {
     color: black;
   }
   .ac {
-    color: #ff7f50;
+    color: #ff0000;
   }
   
   
@@ -398,19 +415,24 @@ body {
   .bus {
     padding: 50px;
   }
+  .pp {
+    text-decoration: none;
+    color: white;
+  }
 
   .containeraq {
     text-align: center;
     margin: 20px;
 }
 .containeraq h1 {
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
 }
 .containeraq p {
     font-size: 16px;
-    color: #666;
+    color: #fff;
     margin-bottom: 30px;
 }
 .card-containeraq {
@@ -535,9 +557,10 @@ body {
 }
 
 .buttonax {
-  background-color: #ff6347;
+  background-color: #ff0000;
   color: white;
   padding: 15px 30px;
+  margin-top: -50px;
   border: none;
   border-radius: 25px;
   font-size: 1em;
@@ -570,14 +593,10 @@ display: inline-block;
   text-decoration: none;
   border: solid #6847ef 1.9px;
 }
-.nbw {
-  font-size: 2em;
-  margin-bottom: 20px;
+ 
+.lm {
+  color: #ff0000;
 }
-.nbw span {
-  color: #ff6347;
-}
-
   .featuresaz {
     display: flex;
     justify-content: space-around;
@@ -691,7 +710,8 @@ display: inline-block;
   margin-top: 200px;
 }
 .nwb {
-  padding: 50px;
+  color: white;
+  font-size: 21px;
 }
 .cardvt img {
     border-radius: 50%; 
@@ -723,7 +743,6 @@ display: inline-block;
     font-size: 48px;
     margin: 0;
   }
-  x
   
   .headersatu {
     text-align: left;
@@ -838,7 +857,7 @@ display: inline-block;
     margin: 0 10px;
   }
   .footerada .cta-buttonsada .consultada {
-    background-color: #ff4d4d;
+    background-color: #ff0000;
   }
   .footerada .cta-buttons .demoada {
     background-color: #00aaff;
