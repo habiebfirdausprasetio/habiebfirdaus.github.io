@@ -733,6 +733,9 @@ display: inline-block;
     color: #ffd700;
     margin: 10px 0;
 }
+.imgv {
+  color: white;
+}
   
   .hero-text1 {
     max-width: 50%;
@@ -868,7 +871,7 @@ display: inline-block;
   .footerad {
     background-color: #00aaff;
     color: white;
-    padding: 50px 0;
+    padding: 50px ;
     text-align: center;
   }
   .footerad .cta-buttonsad {
